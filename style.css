@@ -1,0 +1,53 @@
+.gradient-background {
+    background: linear-gradient(300deg, #7BD3EA, #A1EEBD, #F6F7C4, #F6D6D6);
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.btn-custom {
+    color: #A1EEBD;
+    border-color: #A1EEBD;
+  }
+
+.btn-custom:hover {
+    color: #fff;
+    background-color: #A1EEBD;
+    border-color: #A1EEBD;
+}
+
+.btn-outline-custom {
+    color: #A1EEBD;
+    border-color: #A1EEBD;
+  }
+
+.btn-outline-custom:hover {
+    color: #fff;
+    background-color: #A1EEBD;
+    border-color: #A1EEBD;
+}
+
+.card {
+    border-color: #A1EEBD;
+    border-width: 2px;
+    box-shadow: 0 4px 20px #A1EEBD;
+}
+
+
+.bg-custom {
+    background-color: #A1EEBD;
+}
+.bg-body-custom {
+    background-color: #F6F7C4
+}
